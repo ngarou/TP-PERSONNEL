@@ -1,0 +1,101 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 2.5cm; 
+    padding: 0;
+    background-color: #fdf6e4;
+}
+
+header {
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+    border-bottom: 4px solid #000000; /* Ajout du trait noir sous le header */
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ad4747;
+}
+
+header nav button {
+    background-color: #d1a854; /* Couleur de fond */
+    border: none; 
+    padding: 15px 30px; 
+    margin: 30px; /* Espacement entre les boutons */
+    border-radius: 20px; 
+    color: #fff; 
+    font: size 100px; /* Taille du texte augmentée */
+    cursor: pointer; /* Curseur de pointeur pour interaction */
+}
+
+/* Effet au survol (hover) pour rendre les boutons interactifs */
+header nav button:hover {
+    background-color: #c1944e; /* Légèrement plus foncé au survol */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+header nav button:hover {
+    background-color: #b08b47;
+}
+
+/* Menu principal */
+.menu-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    border-bottom: 4px solid black;
+}
+
+.menu-category {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacement entre l'image et le texte */
+    padding: 15px;
+   
+}
+.menu-category img {
+    width: 120px; /* Taille fixe pour les images */
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-category h3 {
+    margin: 5px 0;
+    color: #f26c4f;
+}
+
+.menu-category p {
+    color: #666;
+    margin: 5px 0;
+}
+
+
+/* Boissons et Desserts */
+.boissons-desserts {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .boissons-desserts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boissons, .desserts {
+        width: 100%;
+        text-align: center;
+    }
+}
