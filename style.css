@@ -98,4 +98,54 @@ header nav button:hover {
         width: 100%;
         text-align: center;
     }
+    
+    .menu-section {
+        grid-template-columns: 1fr;
+    }
+    
+    .menu-category img {
+        width: 100%;
+    }
+    
+    .menu-category h3 {
+        font-size: 18px;
+    }
+
+    .menu-category p {
+        font-size: 14px;
+    }
+    
+    header nav button {
+        font-size: 60px;
+    }
+    
+    header nav button:hover {
+        background-color: #aa8946;
+    }
+    
+    header h1, header h2 {
+        font-size: 24px;
+    }
+    
+    header nav button {
+        margin: 10px;
+    }
+    
+    header nav button:hover {
+        background-color: #98763f;
+    }
+
+    /* Menu principal */
+    .menu-section {
+        gap: 10px;
+    }
+    
+    .menu-category img {
+        width: 75px;
+    }
+    
+    .menu-category h3 {
+        font-size: 14px;
+    }
 }
+
